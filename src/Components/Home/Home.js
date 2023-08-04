@@ -9,7 +9,9 @@ export default function Home() {
         <Grid>
           <Box>
             <Typography>Welcome, my name is</Typography>
-            <Typography>Celin Castro</Typography>
+            <div class="flyinTxtCont">
+              <h1 class="flyIn lineOne">Celin Castro</h1>
+            </div>
           </Box>
           <Box></Box>
         </Grid>
