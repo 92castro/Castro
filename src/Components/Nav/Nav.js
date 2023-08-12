@@ -29,27 +29,27 @@ export default function Nav() {
             </li>
           </ul>
         </Box>
+      </Grid>
 
-        <Grid class="social">
-          <Button
-            style={{ transform: "scale(2)" }}
-            startIcon={<LinkedInIcon />}
-            href="https://www.linkedin.com/in/celin-castro/"
-            target="_blank"
-          />
-          <Button
-            style={{ transform: "scale(2)" }}
-            startIcon={<GitHubIcon />}
-            href="https://github.com/92castro"
-            target="_blank"
-          />
-          <Button
-            style={{ transform: "scale(2)" }}
-            startIcon={<EmailIcon />}
-            href="mailto:celin92castro@gmail.com"
-            target="_blank"
-          />
-        </Grid>
+      <Grid class="social">
+        <Button
+          style={{ transform: "scale(2)" }}
+          startIcon={<LinkedInIcon />}
+          href="https://www.linkedin.com/in/celin-castro/"
+          target="_blank"
+        />
+        <Button
+          style={{ transform: "scale(2)" }}
+          startIcon={<GitHubIcon />}
+          href="https://github.com/92castro"
+          target="_blank"
+        />
+        <Button
+          style={{ transform: "scale(2)" }}
+          startIcon={<EmailIcon />}
+          href="mailto:celin92castro@gmail.com"
+          target="_blank"
+        />
       </Grid>
     </div>
   );

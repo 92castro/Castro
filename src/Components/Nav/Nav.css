@@ -8,34 +8,21 @@
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
+}
+
+.pages {
+  font-size: 30px;
+  color: #818181;
   display: flex;
 }
 
-/* .pages {
-  height: 100%;
-  width: 280px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-} */
+.pages ul {
+  list-style-type: none;
+}
 
-.pages {
-  /* padding: 50px;
-  text-decoration: none;
-  font-size: 30px;
-  color: #818181;
-  display: flex;
-  justify-content: center; */
-  font-size: 30px;
-  color: #818181;
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: space-between;
-  /* padding: 25px; */
+.pages ul li {
+  margin-top: 5rem;
+  text-align: center;
 }
 
 .sidenav a:hover {
@@ -43,5 +30,7 @@
 }
 
 .social {
-  padding-top: 100px;
+  position: fixed;
+  bottom: 25px;
+  margin-left: 30px;
 }
