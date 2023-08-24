@@ -68,3 +68,9 @@
     transform: translateX(0%);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .home {
+    background-color: bisque;
+  }
+}

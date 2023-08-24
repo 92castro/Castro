@@ -2,3 +2,10 @@
   margin-left: 280px; /* Same as the width of the sidenav */
   padding: 0px 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  .main {
+    background-color: rgb(176, 78, 78);
+    margin: auto;
+  }
+}

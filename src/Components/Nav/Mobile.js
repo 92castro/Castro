@@ -5,7 +5,7 @@ import { slide as Menu } from "react-burger-menu";
 
 export default function Mobile() {
   return (
-    <Menu>
+    <Menu className="mobile">
       <Link className="menu-item" to="home">
         Home
       </Link>
