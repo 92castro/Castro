@@ -2,3 +2,11 @@
   width: 100%;
   background-color: rgb(93, 113, 113);
 }
+
+.carousel {
+  display: flex;
+}
+
+.websites {
+  justify-items: center;
+}
