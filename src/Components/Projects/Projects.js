@@ -19,7 +19,11 @@ import overland from "../../Assets/overland.PNG";
 // };
 
 const items = [
-  <a href="https://golden-goose-finance.herokuapp.com/">
+  <a
+    href="https://golden-goose-finance.herokuapp.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <img
       src={goldengoose}
       alt="Golden Goose"
@@ -33,7 +37,11 @@ const items = [
       }}
     />
   </a>,
-  <a href="https://fermentationsdemo.netlify.app/">
+  <a
+    href="https://fermentationsdemo.netlify.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <img
       src={fermentations}
       alt="Fermentations"
@@ -47,7 +55,11 @@ const items = [
       }}
     />
   </a>,
-  <a href="https://overlandbaseball.com/">
+  <a
+    href="https://overlandbaseball.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <img
       src={overland}
       alt="Overland Baseball"
