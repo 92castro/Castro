@@ -15,9 +15,9 @@ export default function Mobile() {
       <Link className="menu-item" to="projects">
         Projects
       </Link>
-      <Link className="menu-item" to="resume">
+      {/* <Link className="menu-item" to="resume">
         Resume
-      </Link>
+      </Link> */}
       <Link className="menu-item" to="contact">
         Contact
       </Link>

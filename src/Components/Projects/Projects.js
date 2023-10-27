@@ -8,9 +8,6 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import goldengoose from "../../Assets/goldengoosef.PNG";
 import fermentations from "../../Assets/Fermentations.PNG";
 import overland from "../../Assets/overland.PNG";
-// import security from "../../assets/sponsors/security.png";
-// import usbank from "../../assets/sponsors/usbank.png";
-// import zynex from "../../assets/sponsors/zynex.jpg";
 
 // const responsive = {
 //   0: { items: 1 },
@@ -73,36 +70,36 @@ const items = [
       }}
     />
   </a>,
-  // <img src={security} alt="security credit union" className="item" data-value="4" style={{ width: "300px", display: "flex", margin: "auto" }} />,
-  // <img src={usbank} alt="usbank" className="item" data-value="5" style={{ width: "300px", display: "flex", margin: "auto" }} />,
-  // <img src={zynex} alt="zynex" className="item" data-value="6" style={{ width: "300px", display: "flex", margin: "auto" }} />,
 ];
 
 export default function Projects() {
   return (
     <div className="main">
-      <Grid className="carousel">
-        <Box>
-          <AliceCarousel
-            animationType="fadeout"
-            animationDuration={800}
-            disableButtonsControls
-            infinite
-            items={items}
-            mouseTracking
-            // autoPlay
-            // disableDotsControls
-            // mouseTracking
-            // items={items}
-            // responsive={responsive}
-            // controlsStrategy="alternate"
-            // infinite
-            // autoPlayStrategy="none"
-            // autoPlayInterval={1000}
-            // animationDuration={3000}
-          />
-        </Box>
-      </Grid>
+      <section className="projects">
+        <Typography className="title">My Projects</Typography>
+        <Grid className="carousel">
+          <Box>
+            <AliceCarousel
+              animationType="fadeout"
+              animationDuration={800}
+              disableButtonsControls
+              infinite
+              items={items}
+              mouseTracking
+              // autoPlay
+              // disableDotsControls
+              // mouseTracking
+              // items={items}
+              // responsive={responsive}
+              // controlsStrategy="alternate"
+              // infinite
+              // autoPlayStrategy="none"
+              // autoPlayInterval={1000}
+              // animationDuration={3000}
+            />
+          </Box>
+        </Grid>
+      </section>
     </div>
   );
 }

@@ -7,13 +7,13 @@ export default function Home() {
     <div className="main">
       <section className="home">
         <Grid>
-          <Box>
+          <Box className="intro">
             <Typography>Welcome, my name is</Typography>
             <div class="flyinTxtCont">
               <h1 class="flyIn lineOne">Celin Castro</h1>
+              <h4>An Intrepid Human Being</h4>
             </div>
           </Box>
-          <Box></Box>
         </Grid>
       </section>
     </div>

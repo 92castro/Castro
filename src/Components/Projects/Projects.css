@@ -1,6 +1,11 @@
 .projects {
   width: 100%;
+  height: 85vh;
   background-color: rgb(93, 113, 113);
+}
+
+.title {
+  text-align: center;
 }
 
 /* .carousel {
