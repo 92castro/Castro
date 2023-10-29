@@ -1,21 +1,19 @@
 .projects {
   width: 100%;
-  height: 85vh;
+  height: auto;
   background-color: rgb(93, 113, 113);
+  padding-bottom: 100px;
 }
 
 .title {
   text-align: center;
 }
 
-/* .carousel {
-} */
-
-.websites {
-  justify-items: center;
+.vertical-timeline-element--work {
+  height: 65vh;
 }
 
 /* @media only screen and (max-width: 768px) {
-  .carousel {
+  .timeline {
   }
 } */
