@@ -4,10 +4,10 @@ import { Typography } from "@mui/material";
 
 export default function Resume() {
   return (
-    <div className="main">
-      <section className="resume">
+    <div className="animated-background">
+      {/* <section className="resume">
         <Typography>RESUME</Typography>
-      </section>
+      </section> */}
     </div>
   );
 }
