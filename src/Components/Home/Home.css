@@ -8,7 +8,7 @@
 
 .type {
   height: 2rem;
-  font-size: 20px;
+  font-size: 22px;
   padding-left: 20px;
   color: #c7d4e4;
   text-shadow: 1px -2px 2px #261510;
@@ -17,7 +17,7 @@
 .photo {
   width: 650px;
   height: auto;
-  box-shadow: 20px 20px 10px #261510;
+  /* box-shadow: 20px 20px 10px #261510; */
 }
 
 @keyframes animatedBackground {
@@ -89,10 +89,6 @@
   .home {
     /* background-color: bisque; */
     flex-direction: column;
-  }
-
-  span {
-    padding: bottom 20px;
   }
 
   .photo {
