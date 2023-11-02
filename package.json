@@ -11,16 +11,13 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
-    "react-alice-carousel": "^2.8.0",
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.158.0",
     "typed.js": "^2.0.16",
-    "vanta": "^0.5.24",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

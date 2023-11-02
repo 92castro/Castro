@@ -11,16 +11,40 @@ const closeMenu = () => {
 export default function Mobile() {
   return (
     <Menu className="mobile">
-      <Link className="menu-item" to="home" onClick={closeMenu}>
+      <Link
+        className="menu-item"
+        to="home"
+        smooth={true}
+        duration={600}
+        onClick={closeMenu}
+      >
         Home
       </Link>
-      <Link className="menu-item" to="about" onClick={closeMenu}>
+      <Link
+        className="menu-item"
+        to="about"
+        smooth={true}
+        duration={600}
+        onClick={closeMenu}
+      >
         About
       </Link>
-      <Link className="menu-item" to="projects" onClick={closeMenu}>
+      <Link
+        className="menu-item"
+        to="projects"
+        smooth={true}
+        duration={600}
+        onClick={closeMenu}
+      >
         Projects
       </Link>
-      <Link className="menu-item" to="contact" onClick={closeMenu}>
+      <Link
+        className="menu-item"
+        to="contact"
+        smooth={true}
+        duration={600}
+        onClick={closeMenu}
+      >
         Contact
       </Link>
     </Menu>

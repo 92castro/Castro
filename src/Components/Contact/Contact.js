@@ -10,21 +10,21 @@ export default function Contact() {
     <div className="main">
       <section className="contact">
         <Typography>CONNECT WITH ME</Typography>
-        <Grid>
+        <Grid className="socials">
           <Button
-            style={{ transform: "scale(2)" }}
+            style={{ transform: "scale(3)" }}
             startIcon={<LinkedInIcon />}
             href="https://www.linkedin.com/in/celin-castro/"
             target="_blank"
           />
           <Button
-            style={{ transform: "scale(2)" }}
+            style={{ transform: "scale(3)" }}
             startIcon={<GitHubIcon />}
             href="https://github.com/92castro"
             target="_blank"
           />
           <Button
-            style={{ transform: "scale(2)" }}
+            style={{ transform: "scale(3)" }}
             startIcon={<EmailIcon />}
             href="mailto:celin92castro@gmail.com"
             target="_blank"

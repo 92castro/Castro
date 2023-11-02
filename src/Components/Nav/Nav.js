@@ -13,19 +13,24 @@ export default function Nav() {
         <Box className="pages">
           <ul>
             <li>
-              <Link to="home">Celin Castro</Link>
+              <Link to="home" smooth={true} duration={600}>
+                Celin Castro
+              </Link>
             </li>
             <li>
-              <Link to="about">About</Link>
+              <Link to="about" smooth={true} duration={600}>
+                About
+              </Link>
             </li>
             <li>
-              <Link to="projects">Projects</Link>
+              <Link to="projects" smooth={true} duration={600}>
+                Projects
+              </Link>
             </li>
-            {/* <li>
-              <Link to="resume">Resume</Link>
-            </li> */}
             <li>
-              <Link to="contact">Contact</Link>
+              <Link to="contact" smooth={true} duration={600}>
+                Contact
+              </Link>
             </li>
           </ul>
         </Box>

@@ -1,6 +1,6 @@
 import "../About/About.css";
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 
 export default function About() {
   return (
@@ -8,12 +8,15 @@ export default function About() {
       <section className="about">
         <Box>
           <p className="aboutMe">
-            I'm a web developer and sales professional who values collaboration
-            and positivity. I'm dedicated to creating user-friendly websites and
-            believe in the strength of teamwork. When I'm not coding, I enjoy
-            hiking and playing video games. With a friendly and optimistic
-            outlook, I'm always eager to connect, share ideas, and make the most
-            of every opportunity.
+            Hello there, I'm Celin, a web developer and seasoned sales
+            professional. What truly ignites my passion is the act of creating
+            and building, whether it's in the realm of coding or the joy of
+            building new relationships and collaborating. I pride myself on
+            being a dedicated problem solver and a closer in the world of sales.
+            When I'm not immersed in work, you'll often find me hiking in the
+            great outdoors or online gaming sessions with my friends. Positivity
+            is the compass that keeps me moving forward, guiding me through
+            every endeavor.
           </p>
         </Box>
       </section>
