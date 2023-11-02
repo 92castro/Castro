@@ -20,7 +20,7 @@ export default function Projects() {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "#000000e1",
+                  background: "#261510",
                   color: "#fff",
                 }}
                 contentArrowStyle={{
@@ -61,7 +61,7 @@ export default function Projects() {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "#000000e1",
+                  background: "#261510",
                   color: "#fff",
                 }}
                 contentArrowStyle={{
@@ -101,7 +101,7 @@ export default function Projects() {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "#000000e1",
+                  background: "#261510",
                   color: "#fff",
                 }}
                 contentArrowStyle={{

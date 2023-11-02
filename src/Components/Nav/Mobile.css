@@ -8,7 +8,7 @@
 }
 
 .bm-burger-bars {
-  background: #0095ff;
+  background: #261510;
 }
 
 .bm-burger-bars-hover {
@@ -16,7 +16,7 @@
 }
 
 .bm-menu {
-  background: #1b2244e2;
+  background: #261510;
   padding: 3.5em 0.5em 0;
   font-size: 3em;
 }
@@ -30,8 +30,8 @@
 
   /* Hover effect */
   &:hover {
-    color: #000000;
-    text-shadow: 2px 5px 4px rgba(255, 255, 255, 0.5);
+    color: rgb(233, 168, 128);
+    text-shadow: 2px 5px 4px rgba(198, 103, 103, 0.5);
     cursor: pointer;
   }
 }

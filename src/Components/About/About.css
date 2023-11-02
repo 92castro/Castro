@@ -10,7 +10,46 @@
   text-align: center;
   max-width: 700px;
   font-size: 40px;
-  color: rgb(175, 189, 195);
+  color: #261510;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed */
+  animation-iteration-count: infinite;
+  transform-origin: center center;
+  display: flex; /* Use display: flex to enable centering */
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: center; /* Center the text inside the container */
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @media only screen and (max-width: 768px) {

@@ -7,6 +7,7 @@ export default function About() {
     <div className="main">
       <section className="about">
         <Box>
+          <span class="wave">👋</span>
           <p className="aboutMe">
             Hello there, I'm Celin, a web developer and seasoned sales
             professional. What truly ignites my passion is the act of creating

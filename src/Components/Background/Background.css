@@ -10,7 +10,7 @@
 
 @keyframes gradientAnimation {
   0% {
-    background: linear-gradient(45deg, #7d1818, #144d6b);
+    background: linear-gradient(45deg, #ae1709, #e9a880, #fbdeb0);
     background-size: 400% 400%;
     background-position: 0% 50%;
   }
@@ -18,7 +18,7 @@
     background-position: 100% 50%;
   }
   100% {
-    background: linear-gradient(45deg, #7d1818, #144d6b);
+    background: linear-gradient(45deg, #ae1709, #e9a880, #fbdeb0);
     background-size: 400% 400%;
     background-position: 0% 50%;
   }
