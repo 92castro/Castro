@@ -81,7 +81,9 @@ export default function Projects() {
   return (
     <div className="main">
       <section className="projects">
-        <Typography className="title">My Projects</Typography>
+        <Typography className="title" fontSize={"50px"}>
+          My Projects
+        </Typography>
         <Grid>
           <Box className="timeline">
             <VerticalTimeline lineColor="black">
