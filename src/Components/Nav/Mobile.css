@@ -8,20 +8,11 @@
 }
 
 .bm-burger-bars {
-  background: #373a47;
+  background: #0095ff;
 }
 
 .bm-burger-bars-hover {
   background: #ffffff;
-}
-
-.bm-cross-button {
-  height: 24px;
-  width: 24px;
-}
-
-.bm-cross {
-  background: #bdc3c7;
 }
 
 .bm-menu {
@@ -41,6 +32,7 @@
   &:hover {
     color: #000000;
     text-shadow: 2px 5px 4px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
   }
 }
 

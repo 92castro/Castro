@@ -7,9 +7,10 @@ import photo from "../../Assets/me-2.png";
 
 export default function Home() {
   const el = useRef(null);
+  let typed = null;
 
   useEffect(() => {
-    const typed = new Typed(el.current, {
+    const options = {
       strings: [
         "DEVELOPER",
         "SALES PROFESSIONAL",
@@ -19,13 +20,22 @@ export default function Home() {
         "BREWER",
       ],
       startDelay: 300,
-      typeSpeed: 150,
-      backDelay: 150,
+      typeSpeed: 120,
+      backDelay: 300,
       fadeOut: true,
       showCursor: false,
       loop: true,
-    });
-  });
+    };
+
+    typed = new Typed(el.current, options);
+
+    // Clean up the Typed instance when the component unmounts
+    return () => {
+      if (typed) {
+        typed.destroy();
+      }
+    };
+  }, []);
   return (
     <div className="main">
       <section className="home">
@@ -33,12 +43,12 @@ export default function Home() {
           <div class="flyinTxtCont">
             <h1 class="flyIn lineOne">Celin Castro</h1>
           </div>
-          <Typography>
+          <Typography className="type" fontSize={"20px"}>
             |<span ref={el}></span>
           </Typography>
         </Box>
         <Box>
-          <img className="photo" src={photo} />
+          <img className="photo" src={photo} alt="profilepic" />
         </Box>
       </section>
     </div>

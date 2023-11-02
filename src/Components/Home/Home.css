@@ -4,12 +4,17 @@
   justify-content: center;
   width: 100%;
   height: 85vh;
-  /* background-color: aqua; */
+}
+
+.type {
+  font-size: 20px;
+  padding-left: 20px;
 }
 
 .photo {
   width: 700px;
   height: auto;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
 @keyframes animatedBackground {
@@ -48,7 +53,7 @@
   text-transform: uppercase;
   line-height: 1.2em;
   position: relative;
-  text-shadow: 2px 2px 40px rgba(0, 0, 0, 0.7);
+  text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
 }
 .lineOne {
   transition-delay: 0.2s;
@@ -56,7 +61,7 @@
   animation: txtFlyIn 0.3s linear;
 }
 .lineOne {
-  color: rgba(57, 51, 51, 0.788);
+  color: rgba(215, 211, 211, 0.888);
   font-size: 55px;
 }
 
@@ -82,9 +87,16 @@
     /* background-color: bisque; */
     flex-direction: column;
   }
+
+  span {
+    padding: bottom 20px;
+  }
+
   .photo {
     height: auto;
     width: 500px;
+    padding-top: 100px;
     text-align: center;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
   }
 }
