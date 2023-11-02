@@ -7,12 +7,13 @@
 }
 
 .type {
+  height: 2rem;
   font-size: 20px;
   padding-left: 20px;
 }
 
 .photo {
-  width: 700px;
+  width: 650px;
   height: auto;
   box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
 }
@@ -95,6 +96,21 @@
   .photo {
     height: auto;
     width: 500px;
+    padding-top: 100px;
+    text-align: center;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .home {
+    /* background-color: bisque; */
+    flex-direction: column;
+  }
+
+  .photo {
+    height: auto;
+    width: 300px;
     padding-top: 100px;
     text-align: center;
     box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);

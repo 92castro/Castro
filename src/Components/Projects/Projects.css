@@ -11,9 +11,10 @@
 
 .vertical-timeline-element--work {
   height: 65vh;
+  font-size: 20px;
 }
 
-/* @media only screen and (max-width: 768px) {
-  .timeline {
-  }
-} */
+.vertical-timeline-element-subtitle {
+  color: rgb(165, 165, 165);
+  font-size: 18px;
+}

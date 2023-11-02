@@ -20,9 +20,6 @@ export default function Mobile() {
       <Link className="menu-item" to="projects" onClick={closeMenu}>
         Projects
       </Link>
-      {/* <Link className="menu-item" to="resume">
-        Resume
-      </Link> */}
       <Link className="menu-item" to="contact" onClick={closeMenu}>
         Contact
       </Link>

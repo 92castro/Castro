@@ -44,7 +44,7 @@ export default function Home() {
             <h1 class="flyIn lineOne">Celin Castro</h1>
           </div>
           <Typography className="type" fontSize={"20px"}>
-            |<span ref={el}></span>
+            <span ref={el}></span>
           </Typography>
         </Box>
         <Box>

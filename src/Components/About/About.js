@@ -7,14 +7,14 @@ export default function About() {
     <div className="main">
       <section className="about">
         <Box>
-          <Typography className="aboutMe" fontSize={"25px"}>
+          <p className="aboutMe">
             I'm a web developer and sales professional who values collaboration
             and positivity. I'm dedicated to creating user-friendly websites and
             believe in the strength of teamwork. When I'm not coding, I enjoy
             hiking and playing video games. With a friendly and optimistic
             outlook, I'm always eager to connect, share ideas, and make the most
             of every opportunity.
-          </Typography>
+          </p>
         </Box>
       </section>
     </div>
