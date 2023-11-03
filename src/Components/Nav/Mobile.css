@@ -25,7 +25,7 @@
 .bm-menu .menu-item {
   display: block;
   font-size: 30px;
-  padding: 50px;
+  padding: 40px;
   color: white;
   text-decoration: none;
   transition: color 0.3s; /* Add transition for smooth color change */
@@ -37,7 +37,7 @@
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (min-width: 425px) {
   .bm-burger-button {
     display: none;
   }

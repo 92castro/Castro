@@ -57,7 +57,12 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+  .about {
+    width: auto;
+    height: auto;
+  }
+
   .aboutMe {
     font-size: 28px;
     padding: 20px;

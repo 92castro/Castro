@@ -118,6 +118,7 @@
 
 #cont {
   font-size: 50px;
+  text-align: center;
 }
 
 #resume {
@@ -126,7 +127,7 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 425px) {
   .resume-download {
     display: flex;
     flex-direction: column;

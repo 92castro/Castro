@@ -24,3 +24,10 @@
 #summary {
   font-size: 19px;
 }
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+  .vertical-timeline-element--work {
+    height: auto;
+    font-size: 26px;
+  }
+}
