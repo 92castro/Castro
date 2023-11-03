@@ -14,7 +14,7 @@ export default function Nav() {
           <ul>
             <li>
               <Link to="home" smooth={true} duration={600}>
-                Celin Castro
+                Castro
               </Link>
             </li>
             <li>

@@ -5,6 +5,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import ContactPageRoundedIcon from "@mui/icons-material/ContactPageRounded";
+import KeyboardDoubleArrowUpRoundedIcon from "@mui/icons-material/KeyboardDoubleArrowUpRounded";
+import KeyboardDoubleArrowLeftRoundedIcon from "@mui/icons-material/KeyboardDoubleArrowLeftRounded";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
@@ -51,7 +53,7 @@ export default function Contact() {
   return (
     <div className="main">
       <section className="contact">
-        <h1>Connect With Me</h1>
+        <h1 id="cont">Connect With Me</h1>
         <Grid className="socials">
           <Button
             style={{
@@ -83,13 +85,15 @@ export default function Contact() {
           >
             <ContactPageRoundedIcon />
           </IconButton>
-          <h2 id="resume">Check out my Resume</h2>
+          <KeyboardDoubleArrowUpRoundedIcon className="uparrow" />
+          <KeyboardDoubleArrowLeftRoundedIcon className="arrow" />
+          <h2 id="resume">Check out my Resume & learn about my experiences</h2>
         </div>
-        {emailSent ? ( // Conditional rendering based on the emailSent state
+        {emailSent ? (
           <div className="email-sent-message">Email sent successfully!</div>
         ) : (
           <div className="contact-form">
-            <h2>Contact Me</h2>
+            <h2>Let's Collaborate!</h2>
             <form onSubmit={handleSubmit}>
               <input
                 type="text"

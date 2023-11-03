@@ -16,19 +16,20 @@
 }
 
 .bm-menu {
-  background: #261510;
+  background: #261510db;
   padding: 3.5em 0.5em 0;
   font-size: 3em;
+  border-radius: 3%;
 }
 
 .bm-menu .menu-item {
   display: block;
+  font-size: 30px;
   padding: 50px;
   color: white;
   text-decoration: none;
   transition: color 0.3s; /* Add transition for smooth color change */
 
-  /* Hover effect */
   &:hover {
     color: rgb(233, 168, 128);
     text-shadow: 2px 5px 4px rgba(198, 103, 103, 0.5);

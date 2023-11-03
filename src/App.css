@@ -1,11 +1,15 @@
+body {
+  font-family: "Exo", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 .main {
-  margin-left: 280px; /* Same as the width of the sidenav */
+  margin-left: 280px;
   padding: 0px 10px;
 }
 
 @media only screen and (max-width: 768px) {
   .main {
-    /* background-color: rgb(176, 78, 78); */
     margin: auto;
   }
 }

@@ -19,15 +19,15 @@
 }
 
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s; /* Change to speed */
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite;
   transform-origin: center center;
-  display: flex; /* Use display: flex to enable centering */
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  text-align: center; /* Center the text inside the container */
+  text-align: center;
 }
 
 @keyframes wave-animation {
@@ -36,7 +36,7 @@
   }
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  }
   20% {
     transform: rotate(-8deg);
   }
@@ -51,7 +51,7 @@
   }
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
   100% {
     transform: rotate(0deg);
   }

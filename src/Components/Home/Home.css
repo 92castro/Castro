@@ -17,7 +17,6 @@
 .photo {
   width: 650px;
   height: auto;
-  /* box-shadow: 20px 20px 10px #261510; */
 }
 
 @keyframes animatedBackground {
@@ -87,7 +86,6 @@
 
 @media only screen and (max-width: 768px) {
   .home {
-    /* background-color: bisque; */
     flex-direction: column;
   }
 
@@ -102,7 +100,6 @@
 
 @media only screen and (max-width: 425px) {
   .home {
-    /* background-color: bisque; */
     flex-direction: column;
   }
 

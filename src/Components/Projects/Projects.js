@@ -1,6 +1,6 @@
 import "../Projects/Projects.css";
 import React from "react";
-import { Typography, Box, Grid } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,9 +11,7 @@ export default function Projects() {
   return (
     <div className="main">
       <section className="projects">
-        <Typography className="title" fontSize={"50px"}>
-          My Projects
-        </Typography>
+        <h1 className="title">My Projects</h1>
         <Grid>
           <Box className="timeline">
             <VerticalTimeline lineColor="black">

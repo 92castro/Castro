@@ -18,7 +18,7 @@ export default function Mobile() {
         duration={600}
         onClick={closeMenu}
       >
-        Home
+        Castro
       </Link>
       <Link
         className="menu-item"
@@ -27,7 +27,7 @@ export default function Mobile() {
         duration={600}
         onClick={closeMenu}
       >
-        About
+        About Me
       </Link>
       <Link
         className="menu-item"

@@ -1,19 +1,20 @@
 .container {
   height: 100%;
-  width: 280px;
+  width: 235px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #261510;
-  border-right: 2px solid #92a1ab;
+  background-color: #261510b4;
+  border-right: 5px solid #fbfbfbd4;
   overflow-x: hidden;
   padding-top: 20px;
+  border-radius: 0% 0% 20% 0%;
 }
 
 .pages {
   font-size: 40px;
-  color: #818181;
+  color: #b5adad;
   display: flex;
 }
 
@@ -27,8 +28,8 @@
   transition: color 0.3s;
 
   &:hover {
-    color: #954545;
-    text-shadow: 2px 5px 3px rgba(143, 143, 143, 0.5);
+    color: #b73737;
+    text-shadow: 2px 5px 3px rgba(21, 20, 20, 0.5);
     cursor: pointer;
   }
 }
