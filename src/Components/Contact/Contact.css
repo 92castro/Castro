@@ -127,7 +127,7 @@
   text-align: center;
 }
 
-@media (max-width: 768px) and (min-width: 425px) {
+@media (max-width: 768px) and (min-width: 375px) {
   .resume-download {
     display: flex;
     flex-direction: column;
