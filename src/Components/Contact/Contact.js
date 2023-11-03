@@ -14,20 +14,24 @@ export default function Contact() {
     message: "",
   });
 
+  const [emailSent, setEmailSent] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
     const serviceID = "service_vddk9b4";
-    const templateID = "template_emz8auh";
-    const userID = "7K9xWFRG6FvDYS3Sm";
+    const templateID = "template_skelebm";
+    const userID = "V1fsMPBOw0PCjPJUs";
 
     emailjs
       .send(serviceID, templateID, formData, userID)
       .then((response) => {
         console.log("Email sent successfully:", response);
+        setEmailSent(true);
       })
       .catch((error) => {
         console.error("Email sending failed:", error);
+        setEmailSent(false);
       });
 
     setFormData({
@@ -81,35 +85,39 @@ export default function Contact() {
           </IconButton>
           <h2 id="resume">Check out my Resume</h2>
         </div>
-        <div className="contact-form">
-          <h2>Contact Me</h2>
-          <form onSubmit={handleSubmit}>
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              value={formData.name}
-              onChange={handleInputChange}
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              value={formData.email}
-              onChange={handleInputChange}
-              required
-            />
-            <textarea
-              name="message"
-              placeholder="Message"
-              value={formData.message}
-              onChange={handleInputChange}
-              required
-            />
-            <button type="submit">Send</button>
-          </form>
-        </div>
+        {emailSent ? ( // Conditional rendering based on the emailSent state
+          <div className="email-sent-message">Email sent successfully!</div>
+        ) : (
+          <div className="contact-form">
+            <h2>Contact Me</h2>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                value={formData.name}
+                onChange={handleInputChange}
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                value={formData.email}
+                onChange={handleInputChange}
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                value={formData.message}
+                onChange={handleInputChange}
+                required
+              />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        )}
       </section>
     </div>
   );
