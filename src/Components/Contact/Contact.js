@@ -48,7 +48,7 @@ export default function Contact() {
   return (
     <div className="main">
       <section className="contact">
-        <h1>CONNECT WITH ME</h1>
+        <h1>Connect With Me</h1>
         <Grid className="socials">
           <Button
             style={{ transform: "scale(3)" }}

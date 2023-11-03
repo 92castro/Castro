@@ -39,7 +39,7 @@ export default function Projects() {
                   rel="noreferrer"
                   className="vertical-timeline-element-subtitle"
                 >
-                  DEMO|
+                  DEMO |
                 </a>
                 <a
                   href="https://github.com/92castro/Financial_Tracker"
@@ -47,9 +47,9 @@ export default function Projects() {
                   rel="noreferrer"
                   className="vertical-timeline-element-subtitle"
                 >
-                  CODE
+                  | CODE
                 </a>
-                <p>
+                <p id="summary">
                   A mobile-friendly MERN full-stack web application that
                   provides users with a convenient and intuitive solution for
                   tracking and managing their finances. Golden Goose Finance
@@ -80,7 +80,7 @@ export default function Projects() {
                   rel="noreferrer"
                   className="vertical-timeline-element-subtitle"
                 >
-                  DEMO|
+                  DEMO |
                 </a>
                 <a
                   href="https://github.com/92castro/wine-site"
@@ -88,9 +88,9 @@ export default function Projects() {
                   rel="noreferrer"
                   className="vertical-timeline-element-subtitle"
                 >
-                  CODE
+                  | CODE
                 </a>
-                <p>
+                <p id="summary">
                   A visually appealing and user-friendly website. Its mobile
                   optimization and easily operated navigation provides users
                   with information about the homebrewing store, including the
@@ -120,7 +120,7 @@ export default function Projects() {
                   rel="noreferrer"
                   className="vertical-timeline-element-subtitle"
                 >
-                  DEMO|
+                  DEMO |
                 </a>
                 <a
                   href="https://github.com/ChristianBega/Overland-Baseball-Website"
@@ -128,9 +128,9 @@ export default function Projects() {
                   rel="noreferrer"
                   className="vertical-timeline-element-subtitle"
                 >
-                  CODE
+                  | CODE
                 </a>
-                <p>
+                <p id="summary">
                   This modern application is designed to have much information
                   about the Overland baseball team. It has intuitive navigation
                   for users to explore the application and get to know the

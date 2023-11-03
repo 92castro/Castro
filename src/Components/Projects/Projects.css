@@ -12,10 +12,14 @@
 
 .vertical-timeline-element--work {
   height: 65vh;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .vertical-timeline-element-subtitle {
   color: rgb(165, 165, 165);
-  font-size: 18px;
+  font-size: 21px;
+}
+
+#summary {
+  font-size: 19px;
 }
