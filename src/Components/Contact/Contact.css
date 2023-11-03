@@ -55,10 +55,40 @@
 .socials a {
   text-decoration: none;
   color: #000;
-  font-size: 24px;
   transition: color 0.3s;
 }
 
 .socials a:hover {
   color: #007bff;
+}
+
+.resume-download {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.resume-download .MuiIconButton-root {
+  background-color: #0056b3; /* Change the background color */
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.resume-download .MuiIconButton-root:hover {
+  background-color: #00aeff; /* Change the background color on hover */
+}
+
+.resume-download .MuiSvgIcon-root {
+  font-size: 24px; /* Adjust the icon size */
+}
+
+.resume-download .MuiTypography-root {
+  font-size: 18px; /* Adjust the text size */
+}
+
+#resume {
+  font-size: 23px;
+  font-weight: bold;
 }

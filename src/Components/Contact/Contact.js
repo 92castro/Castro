@@ -1,9 +1,10 @@
 import "../Contact/Contact.css";
 import React, { useState } from "react";
-import { Grid, Button } from "@mui/material";
+import { Grid, Button, IconButton } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import ContactPageRoundedIcon from "@mui/icons-material/ContactPageRounded";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
@@ -16,10 +17,9 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Replace with your Email.js service ID, template ID, and user ID
-    const serviceID = "your_email_service_id";
-    const templateID = "your_template_id";
-    const userID = "your_user_id";
+    const serviceID = "service_vddk9b4";
+    const templateID = "template_emz8auh";
+    const userID = "7K9xWFRG6FvDYS3Sm";
 
     emailjs
       .send(serviceID, templateID, formData, userID)
@@ -30,7 +30,6 @@ export default function Contact() {
         console.error("Email sending failed:", error);
       });
 
-    // Clear the form fields after submission
     setFormData({
       name: "",
       email: "",
@@ -51,25 +50,37 @@ export default function Contact() {
         <h1>Connect With Me</h1>
         <Grid className="socials">
           <Button
-            style={{ transform: "scale(3)" }}
+            style={{
+              transform: "scale(3)",
+              margin: "50px",
+            }}
             startIcon={<LinkedInIcon />}
             href="https://www.linkedin.com/in/celin-castro/"
             target="_blank"
           />
           <Button
-            style={{ transform: "scale(3)" }}
+            style={{ transform: "scale(3)", margin: "50px" }}
             startIcon={<GitHubIcon />}
             href="https://github.com/92castro"
             target="_blank"
           />
           <Button
-            style={{ transform: "scale(3)" }}
+            style={{ transform: "scale(3)", margin: "50px" }}
             startIcon={<EmailIcon />}
             href="mailto:celin92castro@gmail.com"
             target="_blank"
           />
         </Grid>
-
+        <div className="resume-download">
+          <IconButton
+            color="primary"
+            href="https://docs.google.com/document/d/1eeSkEXFhzWfAYgD25m5lDbpA6HZZjQzfIElrB84ate0/edit?usp=sharing"
+            target="_blank"
+          >
+            <ContactPageRoundedIcon />
+          </IconButton>
+          <h2 id="resume">Check out my Resume</h2>
+        </div>
         <div className="contact-form">
           <h2>Contact Me</h2>
           <form onSubmit={handleSubmit}>
