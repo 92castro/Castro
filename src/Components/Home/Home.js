@@ -26,7 +26,7 @@ export default function Home() {
       showCursor: false,
       loop: true,
     };
-
+    // eslint-disable-next-line
     typed = new Typed(el.current, options);
 
     // Clean up the Typed instance when the component unmounts
@@ -43,8 +43,8 @@ export default function Home() {
           <div class="flyinTxtCont">
             <h1 class="flyIn lineOne">Celin Castro</h1>
           </div>
-          <Typography className="type" fontSize={"20px"}>
-            <span ref={el}></span>
+          <Typography>
+            <span className="type" ref={el}></span>
           </Typography>
         </Box>
         <Box>
