@@ -1,6 +1,6 @@
 .about {
-  width: 100%;
-  height: 100vh;
+  width: auto;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,7 @@
 #intro {
   text-align: center;
   font-size: 50px;
+  text-decoration: underline;
 }
 
 .aboutMe {
@@ -16,6 +17,8 @@
   max-width: 700px;
   font-size: 40px;
   color: #261510;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .wave {
@@ -54,6 +57,45 @@
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+#skills {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.talent {
+  display: flex;
+  flex-wrap: wrap; /* Allow bubbles to wrap into columns */
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 100%; /* Ensure it doesn't go outside the page */
+}
+
+.skill-bubble {
+  background-color: #4597cde5;
+  color: white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 45px;
+  animation: float 5s infinite;
+  margin: 10px; /* Add margin to create space between bubbles */
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }
 

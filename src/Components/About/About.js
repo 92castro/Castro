@@ -1,6 +1,39 @@
 import "../About/About.css";
 import React from "react";
 import { Box } from "@mui/material";
+import {
+  SiHtml5,
+  SiCss3,
+  SiReact,
+  SiMongodb,
+  SiJavascript,
+  SiNodedotjs,
+  SiHeroku,
+  SiMysql,
+  SiBootstrap,
+  SiJquery,
+  SiVisualstudiocode,
+  SiNpm,
+  SiGraphql,
+  SiInsomnia,
+} from "react-icons/si";
+
+const skills = [
+  <SiHtml5 />,
+  <SiCss3 />,
+  <SiReact />,
+  <SiMongodb />,
+  <SiJavascript />,
+  <SiNodedotjs />,
+  <SiHeroku />,
+  <SiMysql />,
+  <SiBootstrap />,
+  <SiJquery />,
+  <SiVisualstudiocode />,
+  <SiNpm />,
+  <SiGraphql />,
+  <SiInsomnia />,
+];
 
 export default function About() {
   return (
@@ -20,6 +53,14 @@ export default function About() {
             is the compass that keeps me moving forward, guiding me through
             every endeavor.
           </p>
+          <h2 id="skills">Skill Set</h2>
+          <div className="talent">
+            {skills.map((skill, index) => (
+              <div key={index} className="skill-bubble">
+                {skill}
+              </div>
+            ))}
+          </div>
         </Box>
       </section>
     </div>

@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   padding-bottom: 100px;
+  padding-top: 50px;
 }
 
 .title {
@@ -9,6 +10,7 @@
   text-align: center;
   padding-bottom: 50px;
   font-size: 50px;
+  text-decoration: underline;
 }
 
 .vertical-timeline-element--work {
