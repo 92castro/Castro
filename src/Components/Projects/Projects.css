@@ -36,7 +36,7 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 310px) {
   .vertical-timeline-element--work {
     height: auto;
     font-size: 19px;
