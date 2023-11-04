@@ -58,6 +58,7 @@
   line-height: 1.2em;
   position: relative;
   text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+  text-align: center;
 }
 .lineOne {
   transition-delay: 0.2s;
