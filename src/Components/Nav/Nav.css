@@ -28,16 +28,21 @@
   transition: color 0.3s;
 
   &:hover {
-    color: #b73737;
+    color: #801f1f;
     text-shadow: 2px 5px 3px rgba(21, 20, 20, 0.5);
     cursor: pointer;
   }
 }
 
-.social {
+.social .MuiButton-startIcon .MuiSvgIcon-root {
   position: fixed;
-  bottom: 25px;
-  margin-left: 30px;
+  font-size: 50px;
+  bottom: 75px;
+  color: #87afc9cf;
+}
+
+.social .MuiButton-startIcon .MuiSvgIcon-root:hover {
+  color: #074c7a;
 }
 
 @media only screen and (max-width: 768px) {

@@ -60,8 +60,8 @@
   padding: 50px;
 }
 
-.MuiButton-startIcon .MuiSvgIcon-root:hover {
-  color: #007bff;
+.socials .MuiButton-startIcon .MuiSvgIcon-root:hover {
+  color: #074c7acf;
 }
 
 .resume-download .uparrow {
@@ -105,7 +105,7 @@
 }
 
 .resume-download .MuiIconButton-root:hover {
-  background-color: #00aeff;
+  background-color: #074c7acf;
 }
 
 .resume-download .MuiSvgIcon-root {

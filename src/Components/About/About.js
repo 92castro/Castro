@@ -16,6 +16,8 @@ import {
   SiNpm,
   SiGraphql,
   SiInsomnia,
+  SiAdobephotoshop,
+  SiAdobelightroom,
 } from "react-icons/si";
 
 const skills = [
@@ -33,6 +35,8 @@ const skills = [
   <SiNpm />,
   <SiGraphql />,
   <SiInsomnia />,
+  <SiAdobephotoshop />,
+  <SiAdobelightroom />,
 ];
 
 export default function About() {
