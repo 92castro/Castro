@@ -121,7 +121,7 @@ export default function Projects() {
                   DEMO |
                 </a>
                 <a
-                  href="https://github.com/ChristianBega/Overland-Baseball-Website"
+                  href="https://github.com/92castro/Overland-Baseball-Website"
                   target="_blank"
                   rel="noreferrer"
                   className="vertical-timeline-element-subtitle"
@@ -129,7 +129,7 @@ export default function Projects() {
                   | CODE
                 </a>
                 <p id="summary">
-                  This modern application is designed to have much information
+                  This modern application is designed to provide information
                   about the Overland baseball team. It has intuitive navigation
                   for users to explore the application and get to know the
                   players, the schedule of the games, and learn about future
