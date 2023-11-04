@@ -10,7 +10,7 @@ import Mobile from "./Components/Nav/Mobile";
 function App() {
   return (
     <div>
-      <Background />
+      {/* <Background /> */}
       <Nav />
       <Mobile />
       <Home />
