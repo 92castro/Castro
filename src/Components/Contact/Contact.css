@@ -47,20 +47,20 @@
 }
 
 /* Social Icons */
+
 .socials {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 20px;
   margin-bottom: 75px;
 }
-
-.socials a {
-  text-decoration: none;
-  color: #000;
-  transition: color 0.3s;
+.socials .MuiButton-startIcon .MuiSvgIcon-root {
+  font-size: 75px;
+  color: rgb(0, 0, 0);
+  padding: 50px;
 }
 
-.socials a:hover {
+.MuiButton-startIcon .MuiSvgIcon-root:hover {
   color: #007bff;
 }
 
@@ -128,6 +128,12 @@
 }
 
 @media (max-width: 768px) and (min-width: 320px) {
+  .socials .MuiButton-startIcon .MuiSvgIcon-root {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+  }
+
   .resume-download {
     display: flex;
     flex-direction: column;
@@ -158,5 +164,9 @@
     60% {
       transform: translateY(-5px);
     }
+  }
+
+  #cont {
+    font-size: 40px;
   }
 }

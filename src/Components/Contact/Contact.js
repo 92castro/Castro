@@ -56,22 +56,16 @@ export default function Contact() {
         <h1 id="cont">Connect With Me</h1>
         <Grid className="socials">
           <Button
-            style={{
-              transform: "scale(3)",
-              margin: "50px",
-            }}
             startIcon={<LinkedInIcon />}
             href="https://www.linkedin.com/in/celin-castro/"
             target="_blank"
           />
           <Button
-            style={{ transform: "scale(3)", margin: "50px" }}
             startIcon={<GitHubIcon />}
             href="https://github.com/92castro"
             target="_blank"
           />
           <Button
-            style={{ transform: "scale(3)", margin: "50px" }}
             startIcon={<EmailIcon />}
             href="mailto:celin92castro@gmail.com"
             target="_blank"

@@ -64,7 +64,12 @@
   }
 
   .aboutMe {
-    font-size: 28px;
+    font-size: 22px;
     padding: 20px;
+  }
+
+  #intro {
+    text-align: center;
+    font-size: 40px;
   }
 }
