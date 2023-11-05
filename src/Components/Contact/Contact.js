@@ -74,7 +74,7 @@ export default function Contact() {
         <div className="resume-download">
           <IconButton
             color="primary"
-            href="https://docs.google.com/document/d/1eeSkEXFhzWfAYgD25m5lDbpA6HZZjQzfIElrB84ate0/export?format=pdf"
+            href="https://drive.google.com/file/d/1b-ABsIitempkix8CDhfKczS108outB6_/view?usp=sharing"
             download="myResume"
             target="_blank"
           >
