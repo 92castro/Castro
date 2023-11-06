@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 55px;
 }
 
 .push-button {
@@ -76,6 +76,11 @@
   .vertical-timeline-element-subtitle {
     color: rgb(165, 165, 165);
     font-size: 17px;
+  }
+
+  .push-button {
+    padding: 15px 20px;
+    font-size: 20px;
   }
 
   #summary {
