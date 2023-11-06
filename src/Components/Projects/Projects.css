@@ -23,6 +23,35 @@
   font-size: 21px;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.push-button {
+  padding: 20px 30px;
+  background-color: #1e3d52;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.1s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.899);
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+}
+
+.push-button:hover {
+  background-color: #0a2c4d;
+  transform: translateY(3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.46);
+}
+
 #summary {
   font-size: 19px;
 }

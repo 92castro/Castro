@@ -139,6 +139,16 @@ export default function Projects() {
             </VerticalTimeline>
           </Box>
         </Grid>
+        <div className="button-container">
+          <a
+            href="https://github.com/92castro?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+            className="push-button"
+          >
+            More Projects
+          </a>
+        </div>
       </section>
     </div>
   );
